@@ -15,6 +15,7 @@ def reverse_array (array)
 end
 def kesha_maker (array)
   array.each {|letter| letter[2] = "$"}
+end
 
 def find_a (array)
   array.select {|letter| letter.start_with?("a")}
