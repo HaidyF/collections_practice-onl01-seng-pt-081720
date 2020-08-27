@@ -14,5 +14,5 @@ def reverse_array (array)
   array.reverse
 end
 def find_a (array)
-  array.select {|letter| letter.start_with?(a)}
+  array.select {|letter| letter.start_with?("a")}
 end
